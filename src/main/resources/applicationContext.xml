@@ -1,0 +1,33 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="-->
+<!--        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+
+<!--    <bean id = "coords" class = "org.example.Coords"-->
+<!--                        scope="prototype">-->
+<!--    </bean>-->
+<!--    <bean id = "point" class = "org.example.Point">-->
+<!--        <constructor-arg ref="coords"/>-->
+<!--        <property name="color" value="blue"/>-->
+<!--        <property name = "x" value = "50"/>-->
+<!--        <property name = "y" value = "8"/>-->
+<!--    </bean>-->
+<!--    <bean id = "circle" class = "org.example.Circle">-->
+<!--        <constructor-arg ref="coords"/>-->
+<!--        <constructor-arg value="40"/>-->
+<!--        <property name="color" value="red"/>-->
+<!--        <property name = "x" value = "15"/>-->
+<!--        <property name = "y" value = "15"/>-->
+<!--    </bean>-->
+<!--    <bean id = "scene" class = "org.example.Scene"-->
+<!--    scope="prototype">-->
+
+<!--        <property name = "objects">-->
+<!--            <list>-->
+<!--                <ref bean="circle"/>-->
+<!--                <ref bean="point"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
+<!--</beans>-->
